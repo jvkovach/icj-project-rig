@@ -1,0 +1,21 @@
+{
+  "Parks": [
+    {
+      "National Park Name": "Acadia",
+      "State": "Maine",
+      "Acres": 47000,
+      "slug": "acadia"
+    },
+    {
+      "National Park Name": "Arches",
+      "State": "Utah",
+      "Acres": 76519,
+      "slug": "arches"
+    },
+    {
+      "National Park Name": "Badlands",
+      "State": "South Dakota",
+      "Acres": 244000
+    }
+  ]
+}

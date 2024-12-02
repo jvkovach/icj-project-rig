@@ -9,15 +9,20 @@
       "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
       "type": "sheet",
       "name": "bookstores"
+    },
+    {
+      "fileId": "1bbMf-gmvdUPAQbXbvIMs_VyQyuWisyzjGsw3N541esU",
+      "type": "sheet",
+      "name": "parks"
     }
   ],
   "to_bake": [
     {
       "template": "bake-book",
-      "data": "library",
-      "array": "books",
+      "data": "parks",
+      "array": "parks",
       "slug": "slug",
-      "path": "books"
+      "path": "parks"
     }
   ]
 }
