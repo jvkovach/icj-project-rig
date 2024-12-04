@@ -18,7 +18,7 @@
   ],
   "to_bake": [
     {
-      "template": "bake-book",
+      "template": "bake-park",
       "data": "parks",
       "array": "Parks",
       "slug": "slug",
