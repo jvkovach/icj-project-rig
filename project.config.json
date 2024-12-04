@@ -20,7 +20,7 @@
     {
       "template": "bake-book",
       "data": "parks",
-      "array": "parks",
+      "array": "Parks",
       "slug": "slug",
       "path": "parks"
     }

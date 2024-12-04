@@ -15,7 +15,338 @@
     {
       "National Park Name": "Badlands",
       "State": "South Dakota",
-      "Acres": 244000
+      "Acres": 244000,
+      "slug": "badlands"
+    },
+    {
+      "National Park Name": "Big Bend",
+      "State": "Texas",
+      "Acres": 801163,
+      "slug": "big-bend"
+    },
+    {
+      "National Park Name": "Biscayne",
+      "State": "Florida",
+      "Acres": 172971,
+      "slug": "biscayne"
+    },
+    {
+      "National Park Name": "Black Canyon of the Gunnison",
+      "State": "Colorado",
+      "Acres": 30750,
+      "slug": "black-canyon"
+    },
+    {
+      "National Park Name": "Bryce Canyon",
+      "State": "Utah",
+      "Acres": 35835,
+      "slug": "bryce"
+    },
+    {
+      "National Park Name": "Canyonlands",
+      "State": "Utah",
+      "Acres": 337598,
+      "slug": "canyonlands"
+    },
+    {
+      "National Park Name": "Capitol Reef",
+      "State": "Utah",
+      "Acres": 241904,
+      "slug": "capitol-reef"
+    },
+    {
+      "National Park Name": "Carlsbad Caverns",
+      "State": "New Mexico",
+      "Acres": 46000,
+      "slug": "carlsbad"
+    },
+    {
+      "National Park Name": "Channel Islands",
+      "State": "California",
+      "Acres": 249354,
+      "slug": "channel-islands"
+    },
+    {
+      "National Park Name": "Congaree",
+      "State": "South Carolina",
+      "Acres": 26693,
+      "slug": "congaree"
+    },
+    {
+      "National Park Name": "Crater Lake",
+      "State": "Oregon",
+      "Acres": 183224,
+      "slug": "crater-lake"
+    },
+    {
+      "National Park Name": "Cuyahoga Valley",
+      "State": "Ohio",
+      "Acres": 33000,
+      "slug": "cuyahoga-valley"
+    },
+    {
+      "National Park Name": "Death Valley",
+      "State": "California, Nevada",
+      "Acres": 3400000,
+      "slug": "death-valley"
+    },
+    {
+      "National Park Name": "Denali",
+      "State": "Alaska",
+      "Acres": 6100000,
+      "slug": "denali"
+    },
+    {
+      "National Park Name": "Dry Tortugas",
+      "State": "Florida",
+      "Acres": 64701,
+      "slug": "dry-tortugas"
+    },
+    {
+      "National Park Name": "Everglades",
+      "State": "Florida",
+      "Acres": 1500000,
+      "slug": "everglades"
+    },
+    {
+      "National Park Name": "Gates of the Arctic",
+      "State": "Alaska",
+      "Acres": 8400000,
+      "slug": "gates-of-the-arctic"
+    },
+    {
+      "National Park Name": "Gateway Arch",
+      "State": "Missouri",
+      "Acres": 91,
+      "slug": "gateway-arch"
+    },
+    {
+      "National Park Name": "Glacier",
+      "State": "Montana",
+      "Acres": 1000000,
+      "slug": "glacier"
+    },
+    {
+      "National Park Name": "Glacier Bay",
+      "State": "Alaska",
+      "Acres": 3300000,
+      "slug": "glacier-bay"
+    },
+    {
+      "National Park Name": "Grand Canyon",
+      "State": "Arizona",
+      "Acres": 1218375,
+      "slug": "grand-canyon"
+    },
+    {
+      "National Park Name": "Grand Teton",
+      "State": "Wyoming",
+      "Acres": 310000,
+      "slug": "grand-teton"
+    },
+    {
+      "National Park Name": "Great Basin",
+      "State": "Nevada",
+      "Acres": 77000,
+      "slug": "great-basin"
+    },
+    {
+      "National Park Name": "Great Sand Dunes",
+      "State": "Colorado",
+      "Acres": 150000,
+      "slug": "great-sand-dunes"
+    },
+    {
+      "National Park Name": "Great Smoky Mountains",
+      "State": "Tennessee, North Carolina",
+      "Acres": 522427,
+      "slug": "great-smoky-mountains"
+    },
+    {
+      "National Park Name": "Guadalupe Mountains",
+      "State": "Texas",
+      "Acres": 86416,
+      "slug": "guadalupe-mountains"
+    },
+    {
+      "National Park Name": "Haleakalā",
+      "State": "Hawaii",
+      "Acres": 34,
+      "slug": "haleakala"
+    },
+    {
+      "National Park Name": "Hawai'i Volcanoes",
+      "State": "Hawaii",
+      "Acres": 335259,
+      "slug": "hawaii-volcanoes"
+    },
+    {
+      "National Park Name": "Hot Springs",
+      "State": "Arkansas",
+      "Acres": 5550,
+      "slug": "hot-springs"
+    },
+    {
+      "National Park Name": "Indiana Dunes",
+      "State": "Indiana",
+      "Acres": 15000,
+      "slug": "indiana-dunes"
+    },
+    {
+      "National Park Name": "Isle Royale",
+      "State": "Michigan",
+      "Acres": 571790,
+      "slug": "isle-royale"
+    },
+    {
+      "National Park Name": "Joshua Tree",
+      "State": "California",
+      "Acres": 800000,
+      "slug": "joshua-tree"
+    },
+    {
+      "National Park Name": "Katmai",
+      "State": "Alaska",
+      "Acres": 4000000,
+      "slug": "katmai"
+    },
+    {
+      "National Park Name": "Kenai Fjords",
+      "State": "Alaska",
+      "Acres": 607805,
+      "slug": "kenai-fjords"
+    },
+    {
+      "National Park Name": "Kobuk Valley",
+      "State": "Alaska",
+      "Acres": 1750000,
+      "slug": "kobuk-valley"
+    },
+    {
+      "National Park Name": "Lake Clark",
+      "State": "Alaska",
+      "Acres": 4030015,
+      "slug": "lake-clark"
+    },
+    {
+      "National Park Name": "Lassen Volcanic",
+      "State": "California",
+      "Acres": 106000,
+      "slug": "lassen-volcanic"
+    },
+    {
+      "National Park Name": "Mammoth Cave",
+      "State": "Kentucky",
+      "Acres": 52000,
+      "slug": "mammoth-cave"
+    },
+    {
+      "National Park Name": "Mesa Verde",
+      "State": "Colorado",
+      "Acres": 52000,
+      "slug": "mesa-verde"
+    },
+    {
+      "National Park Name": "Mount Rainier",
+      "State": "Washington",
+      "Acres": 236381,
+      "slug": "mount-rainier"
+    },
+    {
+      "National Park Name": "National Park of American Samoa",
+      "State": "American Samoa",
+      "Acres": 13500,
+      "slug": "american-samoa"
+    },
+    {
+      "National Park Name": "New River Gorge",
+      "State": "West Virginia",
+      "Acres": 70000,
+      "slug": "new-river-gorge"
+    },
+    {
+      "National Park Name": "North Cascades",
+      "State": "Washington",
+      "Acres": 505000,
+      "slug": "north-cascades"
+    },
+    {
+      "National Park Name": "Olympic",
+      "State": "Washington",
+      "Acres": 922651,
+      "slug": "olympic"
+    },
+    {
+      "National Park Name": "Petrified Forest",
+      "State": "Arizona",
+      "Acres": 221390,
+      "slug": "petrified-forest"
+    },
+    {
+      "National Park Name": "Pinnacles",
+      "State": "California",
+      "Acres": 27000,
+      "slug": "pinnacles"
+    },
+    {
+      "National Park Name": "Redwood",
+      "State": "California",
+      "Acres": 131983,
+      "slug": "redwood"
+    },
+    {
+      "National Park Name": "Rocky Mountain",
+      "State": "Colorado",
+      "Acres": 265807,
+      "slug": "rocky-mountain"
+    },
+    {
+      "National Park Name": "Saguaro",
+      "State": "Arizona",
+      "Acres": 92000,
+      "slug": "saguaro"
+    },
+    {
+      "National Park Name": "Sequoia & Kings Canyon",
+      "State": "California",
+      "Acres": 786000,
+      "slug": "sequoia"
+    },
+    {
+      "National Park Name": "Shenandoah",
+      "State": "Virginia",
+      "Acres": 198000,
+      "slug": "shenandoah"
+    },
+    {
+      "National Park Name": "Theodore Roosevelt",
+      "State": "North Dakota",
+      "Acres": 70446,
+      "slug": "theodore-roosevelt"
+    },
+    {
+      "National Park Name": "Virgin Islands",
+      "State": "Virgin Islands",
+      "Acres": 14737,
+      "slug": "virgin-islands"
+    },
+    {
+      "National Park Name": "Voyageurs ",
+      "State": "Minnesota",
+      "Acres": 218000,
+      "slug": "voyageurs"
+    },
+    {
+      "National Park Name": "White Sands",
+      "State": "New Mexico",
+      "Acres": 145762,
+      "slug": "white-sands"
+    },
+    {
+      "National Park Name": "Wind Cave",
+      "State": "South Dakota",
+      "Acres": 33847,
+      "slug": "wind-cave"
     }
   ]
 }
