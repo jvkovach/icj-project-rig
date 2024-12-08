@@ -8,13 +8,13 @@
 <div class="container">
   <h1>2024 Final Project</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>Library books loop</h2>
+  <h2>National Parks Loop</h2>
   <p>This loops through data that came from a Google Docs example.</p>
   <div class="row">
-    {% for parks in parks.Parks %}
+    {% for park in parks.Parks %}
       <div class="col">
-        <img src="img/{{ parks.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ parks.slug }}.html">{{ book.title }}</a></h3>
+        <img src="img/{{ park.images }}" alt="Photo of {{park.Name}}" class="img-fluid">
+        <h3><a href="parks/{{ park.slug }}.html">{{ park.Name }}</a></h3>
       </div>
     {% endfor %}
   </div>
