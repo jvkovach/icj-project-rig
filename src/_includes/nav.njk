@@ -12,7 +12,7 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             {% for parks in parks.Parks %}
-            <li><a class="dropdown-item" href="{{ relative_path }}parks/{{ parks.slug}}.html">{{ parks.title }}</a></li>
+            <li><a class="dropdown-item" href="{{ relative_path }}parks/{{ parks.slug}}.html">{{ parks.Name }}</a></li>
             {% endfor %}
           </ul>
         </li>
