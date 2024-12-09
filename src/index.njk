@@ -28,7 +28,7 @@
   <hr>
   {% for parks in parks.Parks %}
     <h3><a href="{{ park.url }}" target="_blank">{{ parks.Name }}</a></h3>
-    <p> The acres in {{parks.Name}} are {{ parks.Acres}}. The park is located in {{ parks.State }} </p>
+    <h6> The acres in {{parks.Name}} are {{ parks.Acres}}. The park is located in {{ parks.State }} </h6>
     <h3><a href="parks/{{ park.slug }}.html">{{ park.Name }}</a></h3>
   <hr>
   {% endfor %}
