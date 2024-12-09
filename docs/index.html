@@ -1,760 +1,1316 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
     <title>National Parks Final Project</title>
-    <meta name="description" content="The index search description for this page goes here.">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=8">
-    <link rel="stylesheet" href="css/main.css">
+    <meta
+      name="description"
+      content="The index search description for this page goes here."
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=8"
+    />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">National Parks</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Park Names
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            
-            <li><a class="dropdown-item" href="parks/acadia.html">Acadia</a></li>
-            
-            <li><a class="dropdown-item" href="parks/arches.html">Arches</a></li>
-            
-            <li><a class="dropdown-item" href="parks/badlands.html">Badlands</a></li>
-            
-            <li><a class="dropdown-item" href="parks/big-bend.html">Big Bend</a></li>
-            
-            <li><a class="dropdown-item" href="parks/biscayne.html">Biscayne</a></li>
-            
-            <li><a class="dropdown-item" href="parks/black-canyon.html">Black Canyon of the Gunnison</a></li>
-            
-            <li><a class="dropdown-item" href="parks/bryce.html">Bryce Canyon</a></li>
-            
-            <li><a class="dropdown-item" href="parks/canyonlands.html">Canyonlands</a></li>
-            
-            <li><a class="dropdown-item" href="parks/capitol-reef.html">Capitol Reef</a></li>
-            
-            <li><a class="dropdown-item" href="parks/carlsbad.html">Carlsbad Caverns</a></li>
-            
-            <li><a class="dropdown-item" href="parks/channel-islands.html">Channel Islands</a></li>
-            
-            <li><a class="dropdown-item" href="parks/congaree.html">Congaree</a></li>
-            
-            <li><a class="dropdown-item" href="parks/crater-lake.html">Crater Lake</a></li>
-            
-            <li><a class="dropdown-item" href="parks/cuyahoga-valley.html">Cuyahoga Valley</a></li>
-            
-            <li><a class="dropdown-item" href="parks/death-valley.html">Death Valley</a></li>
-            
-            <li><a class="dropdown-item" href="parks/denali.html">Denali</a></li>
-            
-            <li><a class="dropdown-item" href="parks/dry-tortugas.html">Dry Tortugas</a></li>
-            
-            <li><a class="dropdown-item" href="parks/everglades.html">Everglades</a></li>
-            
-            <li><a class="dropdown-item" href="parks/gates-of-the-arctic.html">Gates of the Arctic</a></li>
-            
-            <li><a class="dropdown-item" href="parks/gateway-arch.html">Gateway Arch</a></li>
-            
-            <li><a class="dropdown-item" href="parks/glacier.html">Glacier</a></li>
-            
-            <li><a class="dropdown-item" href="parks/glacier-bay.html">Glacier Bay</a></li>
-            
-            <li><a class="dropdown-item" href="parks/grand-canyon.html">Grand Canyon</a></li>
-            
-            <li><a class="dropdown-item" href="parks/grand-teton.html">Grand Teton</a></li>
-            
-            <li><a class="dropdown-item" href="parks/great-basin.html">Great Basin</a></li>
-            
-            <li><a class="dropdown-item" href="parks/great-sand-dunes.html">Great Sand Dunes</a></li>
-            
-            <li><a class="dropdown-item" href="parks/great-smoky-mountains.html">Great Smoky Mountains</a></li>
-            
-            <li><a class="dropdown-item" href="parks/guadalupe-mountains.html">Guadalupe Mountains</a></li>
-            
-            <li><a class="dropdown-item" href="parks/haleakala.html">Haleakalā</a></li>
-            
-            <li><a class="dropdown-item" href="parks/hawaii-volcanoes.html">Hawai&#39;i Volcanoes</a></li>
-            
-            <li><a class="dropdown-item" href="parks/hot-springs.html">Hot Springs</a></li>
-            
-            <li><a class="dropdown-item" href="parks/indiana-dunes.html">Indiana Dunes</a></li>
-            
-            <li><a class="dropdown-item" href="parks/isle-royale.html">Isle Royale</a></li>
-            
-            <li><a class="dropdown-item" href="parks/joshua-tree.html">Joshua Tree</a></li>
-            
-            <li><a class="dropdown-item" href="parks/katmai.html">Katmai</a></li>
-            
-            <li><a class="dropdown-item" href="parks/kenai-fjords.html">Kenai Fjords</a></li>
-            
-            <li><a class="dropdown-item" href="parks/kobuk-valley.html">Kobuk Valley</a></li>
-            
-            <li><a class="dropdown-item" href="parks/lake-clark.html">Lake Clark</a></li>
-            
-            <li><a class="dropdown-item" href="parks/lassen-volcanic.html">Lassen Volcanic</a></li>
-            
-            <li><a class="dropdown-item" href="parks/mammoth-cave.html">Mammoth Cave</a></li>
-            
-            <li><a class="dropdown-item" href="parks/mesa-verde.html">Mesa Verde</a></li>
-            
-            <li><a class="dropdown-item" href="parks/mount-rainier.html">Mount Rainier</a></li>
-            
-            <li><a class="dropdown-item" href="parks/american-samoa.html">National Park of American Samoa</a></li>
-            
-            <li><a class="dropdown-item" href="parks/new-river-gorge.html">New River Gorge</a></li>
-            
-            <li><a class="dropdown-item" href="parks/north-cascades.html">North Cascades</a></li>
-            
-            <li><a class="dropdown-item" href="parks/olympic.html">Olympic</a></li>
-            
-            <li><a class="dropdown-item" href="parks/petrified-forest.html">Petrified Forest</a></li>
-            
-            <li><a class="dropdown-item" href="parks/pinnacles.html">Pinnacles</a></li>
-            
-            <li><a class="dropdown-item" href="parks/redwood.html">Redwood</a></li>
-            
-            <li><a class="dropdown-item" href="parks/rocky-mountain.html">Rocky Mountain</a></li>
-            
-            <li><a class="dropdown-item" href="parks/saguaro.html">Saguaro</a></li>
-            
-            <li><a class="dropdown-item" href="parks/sequoia.html">Sequoia &amp; Kings Canyon</a></li>
-            
-            <li><a class="dropdown-item" href="parks/shenandoah.html">Shenandoah</a></li>
-            
-            <li><a class="dropdown-item" href="parks/theodore-roosevelt.html">Theodore Roosevelt</a></li>
-            
-            <li><a class="dropdown-item" href="parks/virgin-islands.html">Virgin Islands</a></li>
-            
-            <li><a class="dropdown-item" href="parks/voyageurs.html">Voyageurs </a></li>
-            
-            <li><a class="dropdown-item" href="parks/white-sands.html">White Sands</a></li>
-            
-            <li><a class="dropdown-item" href="parks/wind-cave.html">Wind Cave</a></li>
-            
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">National Parks</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Park Names
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="parks/acadia.html">Acadia</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/arches.html">Arches</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/badlands.html"
+                    >Badlands</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/big-bend.html"
+                    >Big Bend</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/biscayne.html"
+                    >Biscayne</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/black-canyon.html"
+                    >Black Canyon of the Gunnison</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/bryce.html"
+                    >Bryce Canyon</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/canyonlands.html"
+                    >Canyonlands</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/capitol-reef.html"
+                    >Capitol Reef</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/carlsbad.html"
+                    >Carlsbad Caverns</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/channel-islands.html"
+                    >Channel Islands</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/congaree.html"
+                    >Congaree</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/crater-lake.html"
+                    >Crater Lake</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/cuyahoga-valley.html"
+                    >Cuyahoga Valley</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/death-valley.html"
+                    >Death Valley</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/denali.html">Denali</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/dry-tortugas.html"
+                    >Dry Tortugas</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/everglades.html"
+                    >Everglades</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/gates-of-the-arctic.html"
+                    >Gates of the Arctic</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/gateway-arch.html"
+                    >Gateway Arch</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/glacier.html">Glacier</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/glacier-bay.html"
+                    >Glacier Bay</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/grand-canyon.html"
+                    >Grand Canyon</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/grand-teton.html"
+                    >Grand Teton</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/great-basin.html"
+                    >Great Basin</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/great-sand-dunes.html"
+                    >Great Sand Dunes</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="parks/great-smoky-mountains.html"
+                    >Great Smoky Mountains</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/guadalupe-mountains.html"
+                    >Guadalupe Mountains</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/haleakala.html"
+                    >Haleakalā</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/hawaii-volcanoes.html"
+                    >Hawai&#39;i Volcanoes</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/hot-springs.html"
+                    >Hot Springs</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/indiana-dunes.html"
+                    >Indiana Dunes</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/isle-royale.html"
+                    >Isle Royale</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/joshua-tree.html"
+                    >Joshua Tree</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/katmai.html">Katmai</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/kenai-fjords.html"
+                    >Kenai Fjords</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/kobuk-valley.html"
+                    >Kobuk Valley</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/lake-clark.html"
+                    >Lake Clark</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/lassen-volcanic.html"
+                    >Lassen Volcanic</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/mammoth-cave.html"
+                    >Mammoth Cave</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/mesa-verde.html"
+                    >Mesa Verde</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/mount-rainier.html"
+                    >Mount Rainier</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/american-samoa.html"
+                    >National Park of American Samoa</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/new-river-gorge.html"
+                    >New River Gorge</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/north-cascades.html"
+                    >North Cascades</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/olympic.html">Olympic</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/petrified-forest.html"
+                    >Petrified Forest</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/pinnacles.html"
+                    >Pinnacles</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/redwood.html">Redwood</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/rocky-mountain.html"
+                    >Rocky Mountain</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/saguaro.html">Saguaro</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/sequoia.html"
+                    >Sequoia &amp; Kings Canyon</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/shenandoah.html"
+                    >Shenandoah</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/theodore-roosevelt.html"
+                    >Theodore Roosevelt</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/virgin-islands.html"
+                    >Virgin Islands</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/voyageurs.html"
+                    >Voyageurs
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/white-sands.html"
+                    >White Sands</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="parks/wind-cave.html"
+                    >Wind Cave</a
+                  >
+                </li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>2024 Final Project</h1>
+      <h4>
+        Get a brief look at all of the National Parks in the United States. With
+        the majority of states in the U.S. having national parks, it's important
+        to be informed about the green spaces around you.
+        <p></p>
+        <p>Let's take care of our Mother Earth!</p>
+      </h4>
+      <h2>A brief look at our National Parks</h2>
+      <h5>
+        This information is about the National Parks of the United States.
+      </h5>
+      <div class="row">
+        <div class="col">
+          <img src="img/acadia.jpg" alt="Photo of Acadia" class="img-fluid" />
+          <h3><a href="parks/acadia.html">Acadia</a></h3>
+        </div>
+
+        <div class="col">
+          <img src="img/arches.jpg" alt="Photo of Arches" class="img-fluid" />
+          <h3><a href="parks/arches.html">Arches</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/badlands.jpg"
+            alt="Photo of Badlands"
+            class="img-fluid"
+          />
+          <h3><a href="parks/badlands.html">Badlands</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/big-bend.jpg"
+            alt="Photo of Big Bend"
+            class="img-fluid"
+          />
+          <h3><a href="parks/big-bend.html">Big Bend</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/biscayne.jpg"
+            alt="Photo of Biscayne"
+            class="img-fluid"
+          />
+          <h3><a href="parks/biscayne.html">Biscayne</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/black-canyon.jpg"
+            alt="Photo of Black Canyon of the Gunnison"
+            class="img-fluid"
+          />
+          <h3>
+            <a href="parks/black-canyon.html">Black Canyon of the Gunnison</a>
+          </h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/bryce.jpg"
+            alt="Photo of Bryce Canyon"
+            class="img-fluid"
+          />
+          <h3><a href="parks/bryce.html">Bryce Canyon</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/canyonlands.jpg"
+            alt="Photo of Canyonlands"
+            class="img-fluid"
+          />
+          <h3><a href="parks/canyonlands.html">Canyonlands</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/capitol-reef.jpg"
+            alt="Photo of Capitol Reef"
+            class="img-fluid"
+          />
+          <h3><a href="parks/capitol-reef.html">Capitol Reef</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/carlsbad.jpg"
+            alt="Photo of Carlsbad Caverns"
+            class="img-fluid"
+          />
+          <h3><a href="parks/carlsbad.html">Carlsbad Caverns</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/channel-islands.jpg"
+            alt="Photo of Channel Islands"
+            class="img-fluid"
+          />
+          <h3><a href="parks/channel-islands.html">Channel Islands</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/congaree.jpg"
+            alt="Photo of Congaree"
+            class="img-fluid"
+          />
+          <h3><a href="parks/congaree.html">Congaree</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/crater-lake.jpg"
+            alt="Photo of Crater Lake"
+            class="img-fluid"
+          />
+          <h3><a href="parks/crater-lake.html">Crater Lake</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/cuyahoga-valley.jpg"
+            alt="Photo of Cuyahoga Valley"
+            class="img-fluid"
+          />
+          <h3><a href="parks/cuyahoga-valley.html">Cuyahoga Valley</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/death-valley.jpg"
+            alt="Photo of Death Valley"
+            class="img-fluid"
+          />
+          <h3><a href="parks/death-valley.html">Death Valley</a></h3>
+        </div>
+
+        <div class="col">
+          <img src="img/denali.jpg" alt="Photo of Denali" class="img-fluid" />
+          <h3><a href="parks/denali.html">Denali</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/dry-tortuga.jpg"
+            alt="Photo of Dry Tortugas"
+            class="img-fluid"
+          />
+          <h3><a href="parks/dry-tortugas.html">Dry Tortugas</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/everglades.jpg"
+            alt="Photo of Everglades"
+            class="img-fluid"
+          />
+          <h3><a href="parks/everglades.html">Everglades</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/gates.jpg"
+            alt="Photo of Gates of the Arctic"
+            class="img-fluid"
+          />
+          <h3>
+            <a href="parks/gates-of-the-arctic.html">Gates of the Arctic</a>
+          </h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/gateway.jpg"
+            alt="Photo of Gateway Arch"
+            class="img-fluid"
+          />
+          <h3><a href="parks/gateway-arch.html">Gateway Arch</a></h3>
+        </div>
+
+        <div class="col">
+          <img src="img/glacier.jpg" alt="Photo of Glacier" class="img-fluid" />
+          <h3><a href="parks/glacier.html">Glacier</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/glacier-bay.jpg"
+            alt="Photo of Glacier Bay"
+            class="img-fluid"
+          />
+          <h3><a href="parks/glacier-bay.html">Glacier Bay</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/grand-canyon.jpg"
+            alt="Photo of Grand Canyon"
+            class="img-fluid"
+          />
+          <h3><a href="parks/grand-canyon.html">Grand Canyon</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/grand-teton.jpg"
+            alt="Photo of Grand Teton"
+            class="img-fluid"
+          />
+          <h3><a href="parks/grand-teton.html">Grand Teton</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/great-basin.jpg"
+            alt="Photo of Great Basin"
+            class="img-fluid"
+          />
+          <h3><a href="parks/great-basin.html">Great Basin</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/great-sand.jpg"
+            alt="Photo of Great Sand Dunes"
+            class="img-fluid"
+          />
+          <h3><a href="parks/great-sand-dunes.html">Great Sand Dunes</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/great-smoky.jpg"
+            alt="Photo of Great Smoky Mountains"
+            class="img-fluid"
+          />
+          <h3>
+            <a href="parks/great-smoky-mountains.html">Great Smoky Mountains</a>
+          </h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/guadalupe.jpg"
+            alt="Photo of Guadalupe Mountains"
+            class="img-fluid"
+          />
+          <h3>
+            <a href="parks/guadalupe-mountains.html">Guadalupe Mountains</a>
+          </h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/halekala.jpg"
+            alt="Photo of Haleakalā"
+            class="img-fluid"
+          />
+          <h3><a href="parks/haleakala.html">Haleakalā</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/hawaii.jpg"
+            alt="Photo of Hawai&#39;i Volcanoes"
+            class="img-fluid"
+          />
+          <h3>
+            <a href="parks/hawaii-volcanoes.html">Hawai&#39;i Volcanoes</a>
+          </h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/hot-springs.jpg"
+            alt="Photo of Hot Springs"
+            class="img-fluid"
+          />
+          <h3><a href="parks/hot-springs.html">Hot Springs</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/indiana-dunes.jpg"
+            alt="Photo of Indiana Dunes"
+            class="img-fluid"
+          />
+          <h3><a href="parks/indiana-dunes.html">Indiana Dunes</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/isle-royale.jpg"
+            alt="Photo of Isle Royale"
+            class="img-fluid"
+          />
+          <h3><a href="parks/isle-royale.html">Isle Royale</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/joshua.jpg"
+            alt="Photo of Joshua Tree"
+            class="img-fluid"
+          />
+          <h3><a href="parks/joshua-tree.html">Joshua Tree</a></h3>
+        </div>
+
+        <div class="col">
+          <img src="img/katmai.jpg" alt="Photo of Katmai" class="img-fluid" />
+          <h3><a href="parks/katmai.html">Katmai</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/kenai.jpg"
+            alt="Photo of Kenai Fjords"
+            class="img-fluid"
+          />
+          <h3><a href="parks/kenai-fjords.html">Kenai Fjords</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/kobuk.jpg"
+            alt="Photo of Kobuk Valley"
+            class="img-fluid"
+          />
+          <h3><a href="parks/kobuk-valley.html">Kobuk Valley</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/lake-clark.jpg"
+            alt="Photo of Lake Clark"
+            class="img-fluid"
+          />
+          <h3><a href="parks/lake-clark.html">Lake Clark</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/lassen.jpg"
+            alt="Photo of Lassen Volcanic"
+            class="img-fluid"
+          />
+          <h3><a href="parks/lassen-volcanic.html">Lassen Volcanic</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/mammoth.jpg"
+            alt="Photo of Mammoth Cave"
+            class="img-fluid"
+          />
+          <h3><a href="parks/mammoth-cave.html">Mammoth Cave</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/mesa-verde.jpg"
+            alt="Photo of Mesa Verde"
+            class="img-fluid"
+          />
+          <h3><a href="parks/mesa-verde.html">Mesa Verde</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/mount-rainier.jpg"
+            alt="Photo of Mount Rainier"
+            class="img-fluid"
+          />
+          <h3><a href="parks/mount-rainier.html">Mount Rainier</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/american-samoa.jpg"
+            alt="Photo of National Park of American Samoa"
+            class="img-fluid"
+          />
+          <h3>
+            <a href="parks/american-samoa.html"
+              >National Park of American Samoa</a
+            >
+          </h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/new-river.jpg"
+            alt="Photo of New River Gorge"
+            class="img-fluid"
+          />
+          <h3><a href="parks/new-river-gorge.html">New River Gorge</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/north-cascades.jpg"
+            alt="Photo of North Cascades"
+            class="img-fluid"
+          />
+          <h3><a href="parks/north-cascades.html">North Cascades</a></h3>
+        </div>
+
+        <div class="col">
+          <img src="img/olympic.jpg" alt="Photo of Olympic" class="img-fluid" />
+          <h3><a href="parks/olympic.html">Olympic</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/petrified-forest.jpg"
+            alt="Photo of Petrified Forest"
+            class="img-fluid"
+          />
+          <h3><a href="parks/petrified-forest.html">Petrified Forest</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/pinnacles.jpg"
+            alt="Photo of Pinnacles"
+            class="img-fluid"
+          />
+          <h3><a href="parks/pinnacles.html">Pinnacles</a></h3>
+        </div>
+
+        <div class="col">
+          <img src="img/redwood.jpg" alt="Photo of Redwood" class="img-fluid" />
+          <h3><a href="parks/redwood.html">Redwood</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/rocky-mountain.jpg"
+            alt="Photo of Rocky Mountain"
+            class="img-fluid"
+          />
+          <h3><a href="parks/rocky-mountain.html">Rocky Mountain</a></h3>
+        </div>
+
+        <div class="col">
+          <img src="img/saguaro.jpg" alt="Photo of Saguaro" class="img-fluid" />
+          <h3><a href="parks/saguaro.html">Saguaro</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/sequoia.jpg"
+            alt="Photo of Sequoia &amp; Kings Canyon"
+            class="img-fluid"
+          />
+          <h3><a href="parks/sequoia.html">Sequoia &amp; Kings Canyon</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/shenandoah.jpg"
+            alt="Photo of Shenandoah"
+            class="img-fluid"
+          />
+          <h3><a href="parks/shenandoah.html">Shenandoah</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/theodore.jpg"
+            alt="Photo of Theodore Roosevelt"
+            class="img-fluid"
+          />
+          <h3>
+            <a href="parks/theodore-roosevelt.html">Theodore Roosevelt</a>
+          </h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/virgin-islands.jpg"
+            alt="Photo of Virgin Islands"
+            class="img-fluid"
+          />
+          <h3><a href="parks/virgin-islands.html">Virgin Islands</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/voyageurs.jpg"
+            alt="Photo of Voyageurs "
+            class="img-fluid"
+          />
+          <h3><a href="parks/voyageurs.html">Voyageurs </a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/white-sands.jpg"
+            alt="Photo of White Sands"
+            class="img-fluid"
+          />
+          <h3><a href="parks/white-sands.html">White Sands</a></h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/wind-cave.jpg"
+            alt="Photo of Wind Cave"
+            class="img-fluid"
+          />
+          <h3><a href="parks/wind-cave.html">Wind Cave</a></h3>
+        </div>
+      </div>
+      <p></p>
+      <h2>A list of the National Parks</h2>
+      <hr />
+
+      <h3><a href="" target="_blank">Acadia</a></h3>
+      <h6>The are 47000 acres in Acadia! The park is located in Maine</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Arches</a></h3>
+      <h6>The are 76519 acres in Arches! The park is located in Utah</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Badlands</a></h3>
+      <h6>
+        The are 244000 acres in Badlands! The park is located in South Dakota
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Big Bend</a></h3>
+      <h6>The are 801163 acres in Big Bend! The park is located in Texas</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Biscayne</a></h3>
+      <h6>The are 172971 acres in Biscayne! The park is located in Florida</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Black Canyon of the Gunnison</a></h3>
+      <h6>
+        The are 30750 acres in Black Canyon of the Gunnison! The park is located
+        in Colorado
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Bryce Canyon</a></h3>
+      <h6>The are 35835 acres in Bryce Canyon! The park is located in Utah</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Canyonlands</a></h3>
+      <h6>The are 337598 acres in Canyonlands! The park is located in Utah</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Capitol Reef</a></h3>
+      <h6>The are 241904 acres in Capitol Reef! The park is located in Utah</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Carlsbad Caverns</a></h3>
+      <h6>
+        The are 46000 acres in Carlsbad Caverns! The park is located in New
+        Mexico
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Channel Islands</a></h3>
+      <h6>
+        The are 249354 acres in Channel Islands! The park is located in
+        California
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Congaree</a></h3>
+      <h6>
+        The are 26693 acres in Congaree! The park is located in South Carolina
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Crater Lake</a></h3>
+      <h6>
+        The are 183224 acres in Crater Lake! The park is located in Oregon
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Cuyahoga Valley</a></h3>
+      <h6>
+        The are 33000 acres in Cuyahoga Valley! The park is located in Ohio
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Death Valley</a></h3>
+      <h6>
+        The are 3400000 acres in Death Valley! The park is located in
+        California, Nevada
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Denali</a></h3>
+      <h6>The are 6100000 acres in Denali! The park is located in Alaska</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Dry Tortugas</a></h3>
+      <h6>
+        The are 64701 acres in Dry Tortugas! The park is located in Florida
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Everglades</a></h3>
+      <h6>
+        The are 1500000 acres in Everglades! The park is located in Florida
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Gates of the Arctic</a></h3>
+      <h6>
+        The are 8400000 acres in Gates of the Arctic! The park is located in
+        Alaska
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Gateway Arch</a></h3>
+      <h6>The are 91 acres in Gateway Arch! The park is located in Missouri</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Glacier</a></h3>
+      <h6>The are 1000000 acres in Glacier! The park is located in Montana</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Glacier Bay</a></h3>
+      <h6>
+        The are 3300000 acres in Glacier Bay! The park is located in Alaska
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Grand Canyon</a></h3>
+      <h6>
+        The are 1218375 acres in Grand Canyon! The park is located in Arizona
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Grand Teton</a></h3>
+      <h6>
+        The are 310000 acres in Grand Teton! The park is located in Wyoming
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Great Basin</a></h3>
+      <h6>The are 77000 acres in Great Basin! The park is located in Nevada</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Great Sand Dunes</a></h3>
+      <h6>
+        The are 150000 acres in Great Sand Dunes! The park is located in
+        Colorado
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Great Smoky Mountains</a></h3>
+      <h6>
+        The are 522427 acres in Great Smoky Mountains! The park is located in
+        Tennessee, North Carolina
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Guadalupe Mountains</a></h3>
+      <h6>
+        The are 86416 acres in Guadalupe Mountains! The park is located in Texas
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Haleakalā</a></h3>
+      <h6>The are 34 acres in Haleakalā! The park is located in Hawaii</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Hawai&#39;i Volcanoes</a></h3>
+      <h6>
+        The are 335259 acres in Hawai&#39;i Volcanoes! The park is located in
+        Hawaii
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Hot Springs</a></h3>
+      <h6>
+        The are 5550 acres in Hot Springs! The park is located in Arkansas
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Indiana Dunes</a></h3>
+      <h6>
+        The are 15000 acres in Indiana Dunes! The park is located in Indiana
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Isle Royale</a></h3>
+      <h6>
+        The are 571790 acres in Isle Royale! The park is located in Michigan
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Joshua Tree</a></h3>
+      <h6>
+        The are 800000 acres in Joshua Tree! The park is located in California
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Katmai</a></h3>
+      <h6>The are 4000000 acres in Katmai! The park is located in Alaska</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Kenai Fjords</a></h3>
+      <h6>
+        The are 607805 acres in Kenai Fjords! The park is located in Alaska
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Kobuk Valley</a></h3>
+      <h6>
+        The are 1750000 acres in Kobuk Valley! The park is located in Alaska
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Lake Clark</a></h3>
+      <h6>
+        The are 4030015 acres in Lake Clark! The park is located in Alaska
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Lassen Volcanic</a></h3>
+      <h6>
+        The are 106000 acres in Lassen Volcanic! The park is located in
+        California
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Mammoth Cave</a></h3>
+      <h6>
+        The are 52000 acres in Mammoth Cave! The park is located in Kentucky
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Mesa Verde</a></h3>
+      <h6>
+        The are 52000 acres in Mesa Verde! The park is located in Colorado
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Mount Rainier</a></h3>
+      <h6>
+        The are 236381 acres in Mount Rainier! The park is located in Washington
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">National Park of American Samoa</a></h3>
+      <h6>
+        The are 13500 acres in National Park of American Samoa! The park is
+        located in American Samoa
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">New River Gorge</a></h3>
+      <h6>
+        The are 70000 acres in New River Gorge! The park is located in West
+        Virginia
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">North Cascades</a></h3>
+      <h6>
+        The are 505000 acres in North Cascades! The park is located in
+        Washington
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Olympic</a></h3>
+      <h6>
+        The are 922651 acres in Olympic! The park is located in Washington
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Petrified Forest</a></h3>
+      <h6>
+        The are 221390 acres in Petrified Forest! The park is located in Arizona
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Pinnacles</a></h3>
+      <h6>
+        The are 27000 acres in Pinnacles! The park is located in California
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Redwood</a></h3>
+      <h6>
+        The are 131983 acres in Redwood! The park is located in California
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Rocky Mountain</a></h3>
+      <h6>
+        The are 265807 acres in Rocky Mountain! The park is located in Colorado
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Saguaro</a></h3>
+      <h6>The are 92000 acres in Saguaro! The park is located in Arizona</h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Sequoia &amp; Kings Canyon</a></h3>
+      <h6>
+        The are 786000 acres in Sequoia &amp; Kings Canyon! The park is located
+        in California
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Shenandoah</a></h3>
+      <h6>
+        The are 198000 acres in Shenandoah! The park is located in Virginia
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Theodore Roosevelt</a></h3>
+      <h6>
+        The are 70446 acres in Theodore Roosevelt! The park is located in North
+        Dakota
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Virgin Islands</a></h3>
+      <h6>
+        The are 14737 acres in Virgin Islands! The park is located in Virgin
+        Islands
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Voyageurs </a></h3>
+      <h6>
+        The are 218000 acres in Voyageurs ! The park is located in Minnesota
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">White Sands</a></h3>
+      <h6>
+        The are 145762 acres in White Sands! The park is located in New Mexico
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
+
+      <h3><a href="" target="_blank">Wind Cave</a></h3>
+      <h6>
+        The are 33847 acres in Wind Cave! The park is located in South Dakota
+      </h6>
+      <h3><a href="parks/.html"></a></h3>
+      <hr />
     </div>
-  </div>
-</nav>
-
-    
-<div class="container">
-  <h1>2024 Final Project</h1>
-  <h4>Get a brief look at all of the National Parks in the United States. With the majority of states in the U.S. having national parks, it's important to be informed about the green spaces around you. 
-  <p></p>
-  <p> Let's take care of our Mother Earth!</p>
-  </h4>
-  <h2>A brief look at our National Parks</h2>
-  <h5>This information is about the National Parks of the United States.</h5>
-  <div class="row">
-    
-      <div class="col">
-        <img src="img/acadia.jpg" alt="Photo of Acadia" class="img-fluid">
-        <h3><a href="parks/acadia.html">Acadia</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/arches.jpg" alt="Photo of Arches" class="img-fluid">
-        <h3><a href="parks/arches.html">Arches</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/badlands.jpg" alt="Photo of Badlands" class="img-fluid">
-        <h3><a href="parks/badlands.html">Badlands</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/big-bend.jpg" alt="Photo of Big Bend" class="img-fluid">
-        <h3><a href="parks/big-bend.html">Big Bend</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/biscayne.jpg" alt="Photo of Biscayne" class="img-fluid">
-        <h3><a href="parks/biscayne.html">Biscayne</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/black-canyon.jpg" alt="Photo of Black Canyon of the Gunnison" class="img-fluid">
-        <h3><a href="parks/black-canyon.html">Black Canyon of the Gunnison</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/bryce.jpg" alt="Photo of Bryce Canyon" class="img-fluid">
-        <h3><a href="parks/bryce.html">Bryce Canyon</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/canyonlands.jpg" alt="Photo of Canyonlands" class="img-fluid">
-        <h3><a href="parks/canyonlands.html">Canyonlands</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/capitol-reef.jpg" alt="Photo of Capitol Reef" class="img-fluid">
-        <h3><a href="parks/capitol-reef.html">Capitol Reef</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/carlsbad.jpg" alt="Photo of Carlsbad Caverns" class="img-fluid">
-        <h3><a href="parks/carlsbad.html">Carlsbad Caverns</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/channel-islands.jpg" alt="Photo of Channel Islands" class="img-fluid">
-        <h3><a href="parks/channel-islands.html">Channel Islands</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/congaree.jpg" alt="Photo of Congaree" class="img-fluid">
-        <h3><a href="parks/congaree.html">Congaree</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/crater-lake.jpg" alt="Photo of Crater Lake" class="img-fluid">
-        <h3><a href="parks/crater-lake.html">Crater Lake</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/cuyahoga-valley.jpg" alt="Photo of Cuyahoga Valley" class="img-fluid">
-        <h3><a href="parks/cuyahoga-valley.html">Cuyahoga Valley</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/death-valley.jpg" alt="Photo of Death Valley" class="img-fluid">
-        <h3><a href="parks/death-valley.html">Death Valley</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/denali.jpg" alt="Photo of Denali" class="img-fluid">
-        <h3><a href="parks/denali.html">Denali</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/dry-tortuga.jpg" alt="Photo of Dry Tortugas" class="img-fluid">
-        <h3><a href="parks/dry-tortugas.html">Dry Tortugas</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/everglades.jpg" alt="Photo of Everglades" class="img-fluid">
-        <h3><a href="parks/everglades.html">Everglades</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/gates.jpg" alt="Photo of Gates of the Arctic" class="img-fluid">
-        <h3><a href="parks/gates-of-the-arctic.html">Gates of the Arctic</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/gateway.jpg" alt="Photo of Gateway Arch" class="img-fluid">
-        <h3><a href="parks/gateway-arch.html">Gateway Arch</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/glacier.jpg" alt="Photo of Glacier" class="img-fluid">
-        <h3><a href="parks/glacier.html">Glacier</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/glacier-bay.jpg" alt="Photo of Glacier Bay" class="img-fluid">
-        <h3><a href="parks/glacier-bay.html">Glacier Bay</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/grand-canyon.jpg" alt="Photo of Grand Canyon" class="img-fluid">
-        <h3><a href="parks/grand-canyon.html">Grand Canyon</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/grand-teton.jpg" alt="Photo of Grand Teton" class="img-fluid">
-        <h3><a href="parks/grand-teton.html">Grand Teton</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/great-basin.jpg" alt="Photo of Great Basin" class="img-fluid">
-        <h3><a href="parks/great-basin.html">Great Basin</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/great-sand.jpg" alt="Photo of Great Sand Dunes" class="img-fluid">
-        <h3><a href="parks/great-sand-dunes.html">Great Sand Dunes</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/great-smoky.jpg" alt="Photo of Great Smoky Mountains" class="img-fluid">
-        <h3><a href="parks/great-smoky-mountains.html">Great Smoky Mountains</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/guadalupe.jpg" alt="Photo of Guadalupe Mountains" class="img-fluid">
-        <h3><a href="parks/guadalupe-mountains.html">Guadalupe Mountains</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/halekala.jpg" alt="Photo of Haleakalā" class="img-fluid">
-        <h3><a href="parks/haleakala.html">Haleakalā</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/hawaii.jpg" alt="Photo of Hawai&#39;i Volcanoes" class="img-fluid">
-        <h3><a href="parks/hawaii-volcanoes.html">Hawai&#39;i Volcanoes</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/hot-springs.jpg" alt="Photo of Hot Springs" class="img-fluid">
-        <h3><a href="parks/hot-springs.html">Hot Springs</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/indiana-dunes.jpg" alt="Photo of Indiana Dunes" class="img-fluid">
-        <h3><a href="parks/indiana-dunes.html">Indiana Dunes</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/isle-royale.jpg" alt="Photo of Isle Royale" class="img-fluid">
-        <h3><a href="parks/isle-royale.html">Isle Royale</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/joshua.jpg" alt="Photo of Joshua Tree" class="img-fluid">
-        <h3><a href="parks/joshua-tree.html">Joshua Tree</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/katmai.jpg" alt="Photo of Katmai" class="img-fluid">
-        <h3><a href="parks/katmai.html">Katmai</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/kenai.jpg" alt="Photo of Kenai Fjords" class="img-fluid">
-        <h3><a href="parks/kenai-fjords.html">Kenai Fjords</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/kobuk.jpg" alt="Photo of Kobuk Valley" class="img-fluid">
-        <h3><a href="parks/kobuk-valley.html">Kobuk Valley</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/lake-clark.jpg" alt="Photo of Lake Clark" class="img-fluid">
-        <h3><a href="parks/lake-clark.html">Lake Clark</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/lassen.jpg" alt="Photo of Lassen Volcanic" class="img-fluid">
-        <h3><a href="parks/lassen-volcanic.html">Lassen Volcanic</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/mammoth.jpg" alt="Photo of Mammoth Cave" class="img-fluid">
-        <h3><a href="parks/mammoth-cave.html">Mammoth Cave</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/mesa-verde.jpg" alt="Photo of Mesa Verde" class="img-fluid">
-        <h3><a href="parks/mesa-verde.html">Mesa Verde</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/mount-rainier.jpg" alt="Photo of Mount Rainier" class="img-fluid">
-        <h3><a href="parks/mount-rainier.html">Mount Rainier</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/american-samoa.jpg" alt="Photo of National Park of American Samoa" class="img-fluid">
-        <h3><a href="parks/american-samoa.html">National Park of American Samoa</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/new-river.jpg" alt="Photo of New River Gorge" class="img-fluid">
-        <h3><a href="parks/new-river-gorge.html">New River Gorge</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/north-cascades.jpg" alt="Photo of North Cascades" class="img-fluid">
-        <h3><a href="parks/north-cascades.html">North Cascades</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/olympic.jpg" alt="Photo of Olympic" class="img-fluid">
-        <h3><a href="parks/olympic.html">Olympic</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/petrified-forest.jpg" alt="Photo of Petrified Forest" class="img-fluid">
-        <h3><a href="parks/petrified-forest.html">Petrified Forest</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/pinnacles.jpg" alt="Photo of Pinnacles" class="img-fluid">
-        <h3><a href="parks/pinnacles.html">Pinnacles</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/redwood.jpg" alt="Photo of Redwood" class="img-fluid">
-        <h3><a href="parks/redwood.html">Redwood</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/rocky-mountain.jpg" alt="Photo of Rocky Mountain" class="img-fluid">
-        <h3><a href="parks/rocky-mountain.html">Rocky Mountain</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/saguaro.jpg" alt="Photo of Saguaro" class="img-fluid">
-        <h3><a href="parks/saguaro.html">Saguaro</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/sequoia.jpg" alt="Photo of Sequoia &amp; Kings Canyon" class="img-fluid">
-        <h3><a href="parks/sequoia.html">Sequoia &amp; Kings Canyon</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/shenandoah.jpg" alt="Photo of Shenandoah" class="img-fluid">
-        <h3><a href="parks/shenandoah.html">Shenandoah</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/theodore.jpg" alt="Photo of Theodore Roosevelt" class="img-fluid">
-        <h3><a href="parks/theodore-roosevelt.html">Theodore Roosevelt</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/virgin-islands.jpg" alt="Photo of Virgin Islands" class="img-fluid">
-        <h3><a href="parks/virgin-islands.html">Virgin Islands</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/voyageurs.jpg" alt="Photo of Voyageurs " class="img-fluid">
-        <h3><a href="parks/voyageurs.html">Voyageurs </a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/white-sands.jpg" alt="Photo of White Sands" class="img-fluid">
-        <h3><a href="parks/white-sands.html">White Sands</a></h3>
-      </div>
-    
-      <div class="col">
-        <img src="img/wind-cave.jpg" alt="Photo of Wind Cave" class="img-fluid">
-        <h3><a href="parks/wind-cave.html">Wind Cave</a></h3>
-      </div>
-    
-  </div>
-  <p>
-  
-  </p>
-  <h2>A list of the National Parks</h2>
-  <hr>
-  
-    <h3><a href="" target="_blank">Acadia</a></h3>
-    <h6> The are 47000 acres in Acadia! The park is located in Maine </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Arches</a></h3>
-    <h6> The are 76519 acres in Arches! The park is located in Utah </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Badlands</a></h3>
-    <h6> The are 244000 acres in Badlands! The park is located in South Dakota </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Big Bend</a></h3>
-    <h6> The are 801163 acres in Big Bend! The park is located in Texas </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Biscayne</a></h3>
-    <h6> The are 172971 acres in Biscayne! The park is located in Florida </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Black Canyon of the Gunnison</a></h3>
-    <h6> The are 30750 acres in Black Canyon of the Gunnison! The park is located in Colorado </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Bryce Canyon</a></h3>
-    <h6> The are 35835 acres in Bryce Canyon! The park is located in Utah </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Canyonlands</a></h3>
-    <h6> The are 337598 acres in Canyonlands! The park is located in Utah </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Capitol Reef</a></h3>
-    <h6> The are 241904 acres in Capitol Reef! The park is located in Utah </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Carlsbad Caverns</a></h3>
-    <h6> The are 46000 acres in Carlsbad Caverns! The park is located in New Mexico </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Channel Islands</a></h3>
-    <h6> The are 249354 acres in Channel Islands! The park is located in California </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Congaree</a></h3>
-    <h6> The are 26693 acres in Congaree! The park is located in South Carolina </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Crater Lake</a></h3>
-    <h6> The are 183224 acres in Crater Lake! The park is located in Oregon </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Cuyahoga Valley</a></h3>
-    <h6> The are 33000 acres in Cuyahoga Valley! The park is located in Ohio </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Death Valley</a></h3>
-    <h6> The are 3400000 acres in Death Valley! The park is located in California, Nevada </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Denali</a></h3>
-    <h6> The are 6100000 acres in Denali! The park is located in Alaska </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Dry Tortugas</a></h3>
-    <h6> The are 64701 acres in Dry Tortugas! The park is located in Florida </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Everglades</a></h3>
-    <h6> The are 1500000 acres in Everglades! The park is located in Florida </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Gates of the Arctic</a></h3>
-    <h6> The are 8400000 acres in Gates of the Arctic! The park is located in Alaska </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Gateway Arch</a></h3>
-    <h6> The are 91 acres in Gateway Arch! The park is located in Missouri </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Glacier</a></h3>
-    <h6> The are 1000000 acres in Glacier! The park is located in Montana </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Glacier Bay</a></h3>
-    <h6> The are 3300000 acres in Glacier Bay! The park is located in Alaska </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Grand Canyon</a></h3>
-    <h6> The are 1218375 acres in Grand Canyon! The park is located in Arizona </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Grand Teton</a></h3>
-    <h6> The are 310000 acres in Grand Teton! The park is located in Wyoming </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Great Basin</a></h3>
-    <h6> The are 77000 acres in Great Basin! The park is located in Nevada </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Great Sand Dunes</a></h3>
-    <h6> The are 150000 acres in Great Sand Dunes! The park is located in Colorado </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Great Smoky Mountains</a></h3>
-    <h6> The are 522427 acres in Great Smoky Mountains! The park is located in Tennessee, North Carolina </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Guadalupe Mountains</a></h3>
-    <h6> The are 86416 acres in Guadalupe Mountains! The park is located in Texas </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Haleakalā</a></h3>
-    <h6> The are 34 acres in Haleakalā! The park is located in Hawaii </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Hawai&#39;i Volcanoes</a></h3>
-    <h6> The are 335259 acres in Hawai&#39;i Volcanoes! The park is located in Hawaii </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Hot Springs</a></h3>
-    <h6> The are 5550 acres in Hot Springs! The park is located in Arkansas </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Indiana Dunes</a></h3>
-    <h6> The are 15000 acres in Indiana Dunes! The park is located in Indiana </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Isle Royale</a></h3>
-    <h6> The are 571790 acres in Isle Royale! The park is located in Michigan </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Joshua Tree</a></h3>
-    <h6> The are 800000 acres in Joshua Tree! The park is located in California </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Katmai</a></h3>
-    <h6> The are 4000000 acres in Katmai! The park is located in Alaska </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Kenai Fjords</a></h3>
-    <h6> The are 607805 acres in Kenai Fjords! The park is located in Alaska </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Kobuk Valley</a></h3>
-    <h6> The are 1750000 acres in Kobuk Valley! The park is located in Alaska </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Lake Clark</a></h3>
-    <h6> The are 4030015 acres in Lake Clark! The park is located in Alaska </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Lassen Volcanic</a></h3>
-    <h6> The are 106000 acres in Lassen Volcanic! The park is located in California </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Mammoth Cave</a></h3>
-    <h6> The are 52000 acres in Mammoth Cave! The park is located in Kentucky </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Mesa Verde</a></h3>
-    <h6> The are 52000 acres in Mesa Verde! The park is located in Colorado </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Mount Rainier</a></h3>
-    <h6> The are 236381 acres in Mount Rainier! The park is located in Washington </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">National Park of American Samoa</a></h3>
-    <h6> The are 13500 acres in National Park of American Samoa! The park is located in American Samoa </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">New River Gorge</a></h3>
-    <h6> The are 70000 acres in New River Gorge! The park is located in West Virginia </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">North Cascades</a></h3>
-    <h6> The are 505000 acres in North Cascades! The park is located in Washington </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Olympic</a></h3>
-    <h6> The are 922651 acres in Olympic! The park is located in Washington </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Petrified Forest</a></h3>
-    <h6> The are 221390 acres in Petrified Forest! The park is located in Arizona </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Pinnacles</a></h3>
-    <h6> The are 27000 acres in Pinnacles! The park is located in California </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Redwood</a></h3>
-    <h6> The are 131983 acres in Redwood! The park is located in California </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Rocky Mountain</a></h3>
-    <h6> The are 265807 acres in Rocky Mountain! The park is located in Colorado </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Saguaro</a></h3>
-    <h6> The are 92000 acres in Saguaro! The park is located in Arizona </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Sequoia &amp; Kings Canyon</a></h3>
-    <h6> The are 786000 acres in Sequoia &amp; Kings Canyon! The park is located in California </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Shenandoah</a></h3>
-    <h6> The are 198000 acres in Shenandoah! The park is located in Virginia </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Theodore Roosevelt</a></h3>
-    <h6> The are 70446 acres in Theodore Roosevelt! The park is located in North Dakota </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Virgin Islands</a></h3>
-    <h6> The are 14737 acres in Virgin Islands! The park is located in Virgin Islands </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Voyageurs </a></h3>
-    <h6> The are 218000 acres in Voyageurs ! The park is located in Minnesota </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">White Sands</a></h3>
-    <h6> The are 145762 acres in White Sands! The park is located in New Mexico </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-    <h3><a href="" target="_blank">Wind Cave</a></h3>
-    <h6> The are 33847 acres in Wind Cave! The park is located in South Dakota </h6>
-    <h3><a href="parks/.html"></a></h3>
-  <hr>
-  
-</div>
-
 
     <footer>
-<p id="legal" class="center-block text-center">
-  <small>&copy;</small> <span class="copyright-year"></span>
-  A class project by the ICJ Class
-</p>
-</footer>
-
+      <p id="legal" class="center-block text-center">
+        <small>&copy;</small> <span class="copyright-year"></span>
+        A class project by the ICJ Class
+      </p>
+    </footer>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
