@@ -7,9 +7,9 @@
 {% block content %}
 <div class="container">
   <h1>2024 Final Project</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>National Parks Loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
+  <p>Get a brief look at all of the National Parks in the United States. With the majority of states in the U.S. having national parks, it's important to be informed about the green spaces around you. Let's take care of our Mother Earth!</p>
+  <h2>A brief look at our National Parks</h2>
+  <p>This information is about the National Parks of the United States.</p>
   <div class="row">
     {% for park in parks.Parks %}
       <div class="col">
@@ -18,12 +18,14 @@
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
+  <p>
+  
+  </p>
+  <h2>A list of the National Parks</h2>
   <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
+  {% for parks in parks.Parks %}
+    <h3><a href="{{ parks.url }}" target="_blank">{{ parks.Name }}</a></h3>
+    <p> The acres in {{parks.Name}} are {{ parks.Acres}}. The park is located in {{ parks.State }} </p>
     <hr>
   {% endfor %}
 </div>
